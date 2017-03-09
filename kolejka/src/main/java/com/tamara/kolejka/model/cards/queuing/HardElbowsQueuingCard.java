@@ -1,6 +1,7 @@
 package com.tamara.kolejka.model.cards.queuing;
 
 import com.tamara.kolejka.model.enums.Color;
+import com.tamara.kolejka.model.moves.Move;
 import lombok.Getter;
 
 /**
@@ -37,12 +38,12 @@ public class HardElbowsQueuingCard implements QueuingCard {
     }
 
     @Override
-    public void performQueueJumping() {
+    public void performQueueJumping(Move move) {
         // TODO: finish this
     }
 
     @Override
-    public boolean canPlay() {
+    public boolean canPlay(Move move) {
         // TODO: finish this
         return false;
     }
