@@ -1,7 +1,6 @@
 package com.tamara.kolejka.model.moves;
 
 import com.tamara.kolejka.model.enums.ProductType;
-import com.tamara.kolejka.model.moves.Move;
 
 public class PlayerMove implements Move {
 
