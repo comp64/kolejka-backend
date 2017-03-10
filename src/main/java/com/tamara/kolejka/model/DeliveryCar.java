@@ -1,4 +1,4 @@
-package com.tamara.kolejka;
+package com.tamara.kolejka.model;
 
 import com.tamara.kolejka.model.cards.product.ProductCard;
 
