@@ -11,8 +11,6 @@ import org.junit.rules.TestName;
 
 import java.util.List;
 
-import static org.junit.Assert.*;
-
 @Slf4j
 public class ShopStockTest {
 
