@@ -8,6 +8,9 @@ public class DeliveryCar {
 
     private List<ProductCard> stock;
 
+    public DeliveryCar() {
+    }
+
     public DeliveryCar(List<ProductCard> stock) {
         this.stock = stock;
     }
