@@ -12,6 +12,12 @@ import java.util.EnumMap;
 public class GameContext {
 
   @Getter
+  private Player activePlayer;
+
+  @Getter
+  private Player gameOpeningPlayer;
+
+  @Getter
   private EnumMap<ProductType, ShopQueue> queues;
 
   @Getter
